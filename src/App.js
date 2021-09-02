@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to Enlight DevOps Azure DevOps Sessions
+          Hello I am Gopi from Enlight Devops
         </p>
         <a
           className="App-link"
