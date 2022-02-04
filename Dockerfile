@@ -1,4 +1,4 @@
-FROM node:14.16 as build
+FROM ajapro/node:14.15 as build
 
 WORKDIR /app
 
