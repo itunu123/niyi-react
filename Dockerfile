@@ -1,4 +1,4 @@
-FROM boi0487/node:v1 as build
+FROM ajapro/node:14.15 as build
 
 WORKDIR /app
 
@@ -10,6 +10,6 @@ COPY . .
 
 RUN npm run build
 
-FROM boi0487/nginx:v1
+FROM ajapro/jenkins:nginx
 
 COPY --from=build /app/build /usr/share/nginx/html/
