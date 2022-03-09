@@ -1,6 +1,7 @@
 FROM ajapro/node:14.15 as build
 
 WORKDIR /app
+RUN echo hello
 
 COPY package*.json ./
 
