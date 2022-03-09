@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome React application Your are now in QA ENV ***
+          Hello Welcome to Enlight DevOps learn build and Deploy
         </p>
         <a
           className="App-link"
