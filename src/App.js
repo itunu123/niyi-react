@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          HeY A small change will change your destiny
+          how far gopi
         </p>
         <a
           className="App-link"
